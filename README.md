@@ -1,10 +1,8 @@
-# Bundler
-
-Bundler to make developing code easier and scalable.
+# A tooltip example using floaing UI
 
 ## Table of contents
 
-- [Bundler](#bundler)
+- [A tooltip example using floaing UI](#a-tooltip-example-using-floaing-ui)
   - [Table of contents](#table-of-contents)
   - [Contains](#contains)
   - [Usage](#usage)

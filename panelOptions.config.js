@@ -1,5 +1,5 @@
 export const defaultPanelOptions = {
-  add100Percentage: true,
+  add100Percentage: false,
   centerAlignContent: true,
   overflow: "visible",
   SVGBaseFix: true,

@@ -36,9 +36,9 @@ export function createSeries(
         type: FieldType.number,
         config: {},
         values: {
-          length: 0,
-          get: (index) => [][index],
-          toArray: () => [],
+          length: 1,
+          get: (index) => [value][index],
+          toArray: () => [value],
         },
         state: {
           displayName: undefined,

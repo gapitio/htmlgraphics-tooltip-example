@@ -18,7 +18,6 @@ function updateData(): void {
     state: LoadingState.Done,
     series: [
       createSeries("random-series-1", randomValue({ min: 0, max: 100 })),
-      createSeries("random-series-2", randomValue({ min: -100, max: 100 })),
     ],
     // TODO: add a proper TimeRange stub
     timeRange: {} as TimeRange,

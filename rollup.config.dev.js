@@ -5,6 +5,7 @@ import livereload from "rollup-plugin-livereload";
 import json from "@rollup/plugin-json";
 import postcss from "rollup-plugin-postcss";
 import html from "rollup-plugin-html";
+import globals from "rollup-plugin-node-globals";
 
 const OUT_DIR = "public/build";
 
@@ -55,6 +56,7 @@ export default [
         browser: true,
       }),
       commonjs(),
+      globals(),
     ],
   },
   {
@@ -72,6 +74,7 @@ export default [
         browser: true,
       }),
       commonjs(),
+      globals(),
     ],
   },
 ];

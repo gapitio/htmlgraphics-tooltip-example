@@ -3,6 +3,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import typescript from "rollup-plugin-typescript2";
 import { terser } from "rollup-plugin-terser";
 import postcss from "rollup-plugin-postcss";
+import globals from "rollup-plugin-node-globals";
 
 const OUT_DIR = "dist";
 
@@ -25,6 +26,7 @@ export default [
         browser: true,
       }),
       commonjs(),
+      globals(),
     ],
   },
   {
@@ -41,6 +43,7 @@ export default [
         browser: true,
       }),
       commonjs(),
+      globals(),
     ],
   },
 ];
